@@ -1,0 +1,39 @@
+.btn_grad {
+  background-image: linear-gradient(
+    to right,
+    #000000 0%,
+    #000000 51%,
+    #000000 100%
+  );
+}
+.btn_grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn_grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-top: 27px;
+}
+.errorMessage {
+  text-align: center !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: red;
+}

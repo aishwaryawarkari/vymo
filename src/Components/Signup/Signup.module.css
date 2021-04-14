@@ -1,0 +1,41 @@
+.btn_grad {
+  background-image: linear-gradient(to right, black 0%, black 51%, black 100%);
+}
+.btn_grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn_grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-top: 27px;
+}
+.label {
+  padding: 0 0px;
+  font-size: 14px;
+}
+.terms {
+  font-size: 11px;
+  padding-left: 20px;
+  color: #999;
+  margin: 6px 0;
+}
+input#customer {
+  margin-top: 18px;
+}
